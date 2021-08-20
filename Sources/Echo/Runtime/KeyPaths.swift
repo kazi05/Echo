@@ -6,7 +6,6 @@
 //  Copyright © 2020 - 2021 Alejandro Alonso. All rights reserved.
 //
 
-/*
 extension AnyKeyPath {
   public var keyPathObject: KeyPathObject {
     // Because keypaths are classes, they are just pointers to a heap object.
@@ -275,4 +274,3 @@ struct _KeyPathObject {
   let _kvc: UnsafePointer<CChar>?
   let _bufferHeader: KeyPathBufferHeader
 }
-*/
